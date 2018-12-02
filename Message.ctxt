@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Message
+comment0.text=\r\n\ @author\ Arran\ Stewart\ (skeleton),\ Xinkai\ Chen\ 22404059\ (implementation)\r\n\r\n
+comment1.params=
+comment1.target=java.lang.String\ getDeckString()
+comment1.text=\ Return\ the\ "deck\ string"\ --\ when\ used\ to\r\n\ construct\ a\ Deck\ object,\ this\ string\ should\r\n\ produce\ a\ Deck\ with\ its\ cards\ in\r\n\ the\ correct\ order\ for\ decrypting\ the\ message\ contained\r\n\ in\ "encryptedText".\r\n\r\n\ @return\ Returns\ a\ string\ that\ can\ be\ passed\ to\ Deck(String\ inputString).\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDecodedMessage()
+comment2.text=\ Return\ the\ "decrypted\ text"\ --\ this\ should\ be\ the\ result\r\n\ of\ decrypting\ the\ message\ in\ "encryptedText".\r\n\r\n\ @return\ Returns\ the\ decrypted\ text\r\n
+comment3.params=kingPos
+comment3.target=java.lang.String\ tryPosition(int)
+comment3.text=\ Given\ a\ position\ at\ which\ the\ missing\ card\ (the\ King\ of\r\n\ Hearts)\ could\ be,\ this\ method\ returns\ a\ String\ which\r\n\ can\ be\ used\ to\ construct\ a\ Deck\ with\ the\ King\ at\ that\r\n\ position.\r\n\r\n\ @param\ kingPos\ A\ possible\ position\ for\ the\ King\ of\ Hearts\r\n\ @return\ A\ String\ which\ can\ be\ used\ to\ initialize\ a\ Deck\r\n
+comment4.params=
+comment4.target=Message()
+comment4.text=\ Devise\ code\ for\ a\ constructor\ which\ will\ test\r\n\ various\ positions\ at\ which\ the\ missing\ card\r\n\ (the\ King\ of\ Hearts)\ could\ be,\ calling\ tryPosition()\r\n\ to\ obtain\ a\ "deck\ string"\ for\ that\ position.\r\n\r\n\ You\ will\ then\ need\ to\ find\ out\ which\ of\ those\r\n\ deck\ orderings\ correctly\ decrypts\ the\ message.\r\n\ (Hint\:\ use\ the\ debugger\ to\ view\ the\ decryption\ results).\r\n\ When\ the\ correct\ position\ for\ the\ King\ is\ found,\r\n\ the\ constructor\ should\ store\ the\ decrypted\ message\ in\r\n\ the\ "decryptedText"\ instance\ variable,\ and\ the\ "deck\ string"\ in\ the\r\n\ "deckString"\ instance\ variable.\r\n
+numComments=5
